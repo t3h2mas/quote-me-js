@@ -1,0 +1,57 @@
+html, body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+  passing: 0px;
+}
+
+
+.center-pane {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 380px;
+  height: 280px;
+  background-color: #AAA;
+  border-radius: 15px 50px 30px 5px;
+  
+}
+
+.quote {
+  position: relative;
+  font-size: 1.8em;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  margin-left: 10px;
+  margin-right 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+.actions {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.text {
+  text-align: center;
+}
+
+.author {
+  text-align: right;
+  font-style: italic;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
